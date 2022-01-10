@@ -1,0 +1,136 @@
+#main{
+    background-color: rgb(223, 228, 241);
+    display: flex;
+    flex-direction: row;
+}
+.aba{ 
+    height: 900px;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+
+}
+.cinza{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 900px;
+    background-color: rgb(211, 220, 233);
+}
+#cardusuário{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 20px;
+    width: 600px;
+    height: 750px;
+}
+#fotodocard{
+    height: 600px;
+    width: 400px;
+}
+#barrinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#botãobarrinha{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    border-radius: 20%;
+}
+#botãobarrinha2{
+    height: 12px;
+    width: 40px;
+    background-color:rgb(211, 220, 233);
+    border-radius: 20%;
+}
+.txtcard{
+    color: #fff;
+}
+#return{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%; 
+    border-color: #fff;
+
+}
+#X{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%; 
+    border-color: rgb(255, 0, 34);
+}
+#star{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%; 
+    border-color: rgb(73, 203, 255);
+}
+#heart{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%; 
+    border-color: rgb(0, 223, 100);
+}
+#lightning{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100%; 
+    border-color: rgb(123, 0, 223);
+}
+#imagemcard{
+    height: 400px;
+    width: 400px;
+}
+.branca{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    width: 300px;
+    background-color: hotpink;
+}
+#cabeçario{
+    padding-top: 20px;
+    background-image: linear-gradient(to right, rgb(255, 0, 98) , rgb(255, 81, 0));
+    height: 70px;
+    width: 100%;
+    
+}
+#mensagensmatch{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px ;
+}
+#Matches{
+    text-decoration-line: underline;
+    text-decoration-color: rgb(255, 0, 191);
+    text-decoration-thickness: 4px;
+}
+#OpiniãoPAME{
+    background-color: #fff;
+    width: 300px;
+    height: 870px;
+    padding-top: 50px;
+    text-align: center;
+}
+#logo{
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+}
+.botãocabeçario{
+    align-items: center;
+    background-color: rgb(255, 0, 98);
+    border-radius: 60%;
+    border: none;
+}
